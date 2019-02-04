@@ -110,9 +110,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 167
-        width: 61
-        height: 99
+        y: 140
+        width: 57
+        height: 126
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,6 +125,10 @@ TextureImporter:
         - {x: 27.5, y: -0.5}
         - {x: 27.5, y: 45.5}
         - {x: 25.5, y: 49.5}
+      - - {x: -28, y: 52}
+        - {x: -28, y: 106}
+        - {x: -7, y: 106}
+        - {x: -7, y: 52}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -137,86 +141,10 @@ TextureImporter:
       name: Daniel-Sketch001_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 0
-        width: 33
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14.5, y: -14}
-        - {x: -15.5, y: 8}
-        - {x: -7.5, y: 9}
-        - {x: -4.5, y: -13}
-      - - {x: -0.5, y: -9}
-        - {x: -7.5, y: 9}
-        - {x: 1.5, y: 12}
-        - {x: 7.5, y: -6}
-      - - {x: 5.5, y: 1}
-        - {x: 1.5, y: 14}
-        - {x: 15.5, y: 14}
-        - {x: 16.5, y: -4}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84d7e8475e9628b4c8a1dae1056edeef
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Daniel-Sketch001_2
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 25
-        width: 20
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b687069742ff9744b92e0079fc339963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Daniel-Sketch001_3
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 13
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7.5, y: -8}
-        - {x: -9.5, y: -3}
-        - {x: 5.5, y: 8}
-        - {x: 9.5, y: 5}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7afe57438c69a0942bafd6ed88549cd4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Daniel-Sketch001_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 68
-        width: 62
-        height: 71
+        x: 2
+        y: 23
+        width: 83
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,47 +152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cb9df8a34bf39d4ab31ec4dfa5c9120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Daniel-Sketch001_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 139
-        width: 41
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e774fe7b788f270409e3d52ed33d29a6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Daniel-Sketch001_6
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 26
-        width: 30
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5eb1879a39fa5a49845b688e9bf069c
+      spriteID: 15aa87fad555eb448a5f238d2ea8d83a
       vertices: []
       indices: 
       edges: []
