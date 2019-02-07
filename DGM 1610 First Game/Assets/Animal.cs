@@ -11,6 +11,8 @@ public class Animal : MonoBehaviour
 	public string Habitat;
 	public string Affiliation; // if friendly or hostile or neutral
 	public string Message; // Flavor text that activates when approach
+	public string Gender;
+	public int Weight; // in Pounds
 
 	// Use this for initialization
 	void Start () {
