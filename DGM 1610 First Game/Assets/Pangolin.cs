@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pangolin : Animal
+public class Pangolin : Mammal
 {
 
 	public Color ScaleColor;
@@ -11,6 +11,7 @@ public class Pangolin : Animal
 	void Start () {
 		Affiliation = "Neutral";
 		Habitat = "Arid";
+		WeightClass = "Heavy";
 		Message = "Please, sir, just $5 goes a long way for us penitent pangolins.";
 	}
 	

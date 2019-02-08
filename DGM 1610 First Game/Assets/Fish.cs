@@ -12,6 +12,7 @@ public class Fish : Animal
 		print("Hello, World!");
 		Affiliation = "Neutral";
 		Habitat = "Aquatic";
+		WeightClass = "Light";
 		Message = "Move along, buddy, I don't date anyone shorter than me.";
 	}
 	

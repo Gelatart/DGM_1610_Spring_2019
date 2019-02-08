@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Moth : Animal
+public class Moth : Bug
 {
 
-	public Color WingColor;
 
 	// Use this for initialization
 	void Start () {
 		Affiliation = "Neutral";
 		Habitat = "Verdant";
+		WeightClass = "Light";
 		Message = "Mmmmppppphhhhh! *She doesn't appear to have a mouth...*";
 	}
 	
