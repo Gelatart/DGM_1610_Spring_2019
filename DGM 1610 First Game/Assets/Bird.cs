@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bug : Animal
+public class Bird : Animal
 {
 
-    public Color WingColor;
+    public Color BeakColor;
 
     // Use this for initialization
     void Start () {
@@ -17,13 +17,13 @@ public class Bug : Animal
 		
     }
 
-    public Color getWingColor()
+    public Color getBeakColor()
     {
-	    return WingColor;
+        return BeakColor;
     }
 
-    public void setWingColor(Color newWingColor)
+    public void setBeakColor(Color newBeakColor)
     {
-	    WingColor = newWingColor;
+        BeakColor = newBeakColor;
     }
 }

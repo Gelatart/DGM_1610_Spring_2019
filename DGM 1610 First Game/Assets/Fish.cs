@@ -21,4 +21,14 @@ public class Fish : Animal
 		transform.Rotate(0,100,0);
 		
 	}
+
+	public Color getFinColor()
+	{
+		return FinColor;
+	}
+
+	public void setFinColor(Color newFinColor)
+	{
+		FinColor = newFinColor;
+	}
 }

@@ -19,4 +19,14 @@ public class Pangolin : Mammal
 	void Update () {
 		
 	}
+
+	public Color getScaleColor()
+	{
+		return ScaleColor;
+	}
+
+	public void setScaleColor(Color newScaleColor)
+	{
+		ScaleColor = newScaleColor;
+	}
 }
