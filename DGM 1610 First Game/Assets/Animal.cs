@@ -17,10 +17,87 @@ public class Animal : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		
-	}
-	
+	}	
 	// Update is called once per frame
 	void Update () {
 		
+	}
+	public string getName()
+	{
+		return Name;
+	}
+	public void setName(string newName)
+	{
+		Name = newName;
+	}
+
+	public Color getSkinColor()
+	{
+		return SkinColor;
+	}
+
+	public void setSkinColor(Color newColor)
+	{
+		SkinColor = newColor;
+	}
+
+	public Color getEyeColor()
+	{
+		return EyeColor;
+	}
+
+	public void setEyeColor(Color newColor)
+	{
+		EyeColor = newColor;
+	}
+
+	public string getHabitat()
+	{
+		return Habitat;
+	}
+
+	public void setHabitat(string newHabitat)
+	{
+		Habitat = newHabitat;
+	}
+
+	public string getAffiliation()
+	{
+		return Affiliation;
+	}
+
+	public void setAffiliation(string newAffiliation)
+	{
+		Affiliation = newAffiliation;
+	}
+
+	public string getMessage()
+	{
+		return Message;
+	}
+
+	public void setMessage(string newMessage)
+	{
+		Message = newMessage;
+	}
+
+	public string getGender()
+	{
+		return Gender;
+	}
+
+	public void setGender(string newGender)
+	{
+		Gender = newGender;
+	}
+
+	public string getWeightClass()
+	{
+		return WeightClass;
+	}
+
+	public string setWeightClass(string newWeightClass)
+	{
+		WeightClass = newWeightClass;
 	}
 }
