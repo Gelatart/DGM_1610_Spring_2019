@@ -107,7 +107,7 @@ public class Animal : MonoBehaviour
 		return DeadColor;
 	}
 
-	public void setDeadColor(color newDeadColor)
+	public void setDeadColor(Color newDeadColor)
 	{
 		DeadColor = newDeadColor;
 	}
