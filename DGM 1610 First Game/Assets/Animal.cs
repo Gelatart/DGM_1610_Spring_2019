@@ -13,6 +13,7 @@ public class Animal : MonoBehaviour
 	public string Message; // Flavor text that activates when approach
 	public string Gender;
 	public string WeightClass; // light, average, heavy
+	public Color DeadColor; //color turns to in death
 
 	// Use this for initialization
 	void Start () {
@@ -96,8 +97,24 @@ public class Animal : MonoBehaviour
 		return WeightClass;
 	}
 
-	public string setWeightClass(string newWeightClass)
+	public void setWeightClass(string newWeightClass)
 	{
 		WeightClass = newWeightClass;
+	}
+
+	public Color getDeadColor()
+	{
+		return DeadColor;
+	}
+
+	public void setDeadColor(color newDeadColor)
+	{
+		DeadColor = newDeadColor;
+	}
+
+	public void getKilled()
+	{
+		SkinColor = DeadColor;
+		EyeColor = DeadColor;
 	}
 }
