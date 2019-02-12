@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Animal : MonoBehaviour
 {
@@ -14,10 +15,16 @@ public class Animal : MonoBehaviour
 	public string Gender;
 	public string WeightClass; // light, average, heavy
 	public Color DeadColor; //color turns to in death
+	public int Health = 100; //No getters or setters yet
+	public float Speed; //NO getters or setters yet
+	public bool CanMove; //No getters or setters yet
+	public float EatingSpeed; // NO getters or setters yet
+	public bool CanEat; // No getters or setters yet
+	public UnityEvent Event; //Doesn't need getters/setters?
 
 	// Use this for initialization
 	void Start () {
-		
+		Event.Invoke(); //still need to set details in Unity
 	}	
 	// Update is called once per frame
 	void Update () {
