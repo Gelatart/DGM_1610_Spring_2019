@@ -5932,14 +5932,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  SkinColor: {r: 0, g: 0, b: 0, a: 0}
+  SkinColor: {r: 0.1715023, g: 0.7735849, b: 0.2797869, a: 0}
   EyeColor: {r: 0, g: 0, b: 0, a: 0}
   Habitat: 
   Affiliation: 
   Message: 
   Gender: 
   WeightClass: 
-  DeadColor: {r: 0, g: 0, b: 0, a: 0}
+  DeadColor: {r: 0.6037736, g: 0.20790316, b: 0.20790316, a: 0}
   Health: 100
   Speed: 0
   CanMove: 0
@@ -5957,7 +5957,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1874263621}
+        m_MethodName: getKilled
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
