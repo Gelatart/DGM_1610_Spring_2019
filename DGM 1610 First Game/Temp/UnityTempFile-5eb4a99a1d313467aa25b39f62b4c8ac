@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:"Temp/Unity.CollabProxy.Editor.dll"
+-out:"Temp/Assembly-CSharp.dll"
 -nostdlib
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
@@ -67,36 +67,28 @@
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/Managed/UnityEditor.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/Managed/Unity.Locator.dll"
+-r:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
+-r:"Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
+-r:"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"
+-r:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+-r:"Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 -r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
--r:"Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll"
--r:"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
--r:"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
 -r:"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
 -r:"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
 -r:"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
--r:"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll"
--r:"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Core.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll"
--r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Core.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll"
+-r:"/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll"
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_5_OR_NEWER
@@ -184,7 +176,7 @@
 -define:ENABLE_SPATIALTRACKING
 -define:ENABLE_WEBSOCKET_HOST
 -define:ENABLE_MONO
--define:NET_2_0
+-define:NET_2_0_SUBSET
 -define:NET_LEGACY
 -define:ENABLE_PROFILER
 -define:DEBUG
@@ -196,20 +188,15 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/AssemblyInfo.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Bootstrap.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabAnalytics.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabHistoryWindow.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarButton.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/CollabToolbarWindow.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Presenters/CollabHistoryPresenter.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/BuildStatusButton.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDown.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryDropDownItem.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItem.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryItemFactory.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/CollabHistoryRevisionLine.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/HistoryProgressSpinner.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/ICollabHistoryItemFactory.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/PagedListView.cs"
-"/Users/danielwood/Documents/DGM_1610_Spring_2019/DGM 1610 First Game/Library/PackageCache/com.unity.collab-proxy@1.2.15/Editor/Collab/Views/StatusView.cs"
+"Assets/Animal.cs"
+"Assets/Bird.cs"
+"Assets/Bug.cs"
+"Assets/ColorData.cs"
+"Assets/Fish.cs"
+"Assets/FloatData.cs"
+"Assets/IntData.cs"
+"Assets/Mammal.cs"
+"Assets/Moth.cs"
+"Assets/Pangolin.cs"
+"Assets/PangolinEvent.cs"
+"Assets/StringData.cs"

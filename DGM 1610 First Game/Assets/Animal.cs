@@ -15,8 +15,8 @@ public class Animal : MonoBehaviour
 	public string Gender;
 	public string WeightClass; // light, average, heavy
 	public Color DeadColor; //color turns to in death
-	public int Health = 100; //No getters or setters yet
-	public float Speed; //NO getters or setters yet
+	//public IntData Health = 100; //No getters or setters yet
+	public FloatData Speed; //NO getters or setters yet
 	public bool CanMove; //No getters or setters yet
 	public float EatingSpeed; // NO getters or setters yet
 	public bool CanEat; // No getters or setters yet
