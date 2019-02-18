@@ -6,8 +6,9 @@ public class Mammal : Animal
 {
 
     // Use this for initialization
-    void Start () {
-        
+    void Start ()
+    {
+        IsWarmBlooded = true;
     }
 	
     // Update is called once per frame

@@ -9,7 +9,7 @@ public class Bug : Animal
 
     // Use this for initialization
     void Start () {
-        
+        IsWarmBlooded = false;
     }
 	
     // Update is called once per frame

@@ -21,6 +21,8 @@ public class Animal : MonoBehaviour
 	public float EatingSpeed; // NO getters or setters yet
 	public bool CanEat; // No getters or setters yet
 	public UnityEvent Event; //Doesn't need getters/setters?
+	public bool IsWarmBlooded; //No getters or setters yet
+	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc., no getters or setters yet
 
 	// Use this for initialization
 	void Start () {

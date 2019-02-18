@@ -10,10 +10,7 @@ public class Fish : Animal
 	// Use this for initialization
 	void Start () {
 		print("Hello, World!");
-		Affiliation = "Neutral";
-		Habitat = "Aquatic";
-		WeightClass = "Light";
-		Message = "Move along, buddy, I don't date anyone shorter than me.";
+		IsWarmBlooded = false;
 	}
 	
 	// Update is called once per frame
