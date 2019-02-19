@@ -188,8 +188,10 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+"Assets/Amphibian.cs"
 "Assets/Animal.cs"
 "Assets/Bird.cs"
+"Assets/BoolData.cs"
 "Assets/Bug.cs"
 "Assets/ColorData.cs"
 "Assets/Fish.cs"
@@ -201,3 +203,4 @@
 "Assets/PangolinEvent.cs"
 "Assets/Reptile.cs"
 "Assets/StringData.cs"
+"Assets/TropicalFish.cs"

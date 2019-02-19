@@ -440,8 +440,7 @@ MonoBehaviour:
   Gender: 
   WeightClass: 
   DeadColor: {r: 0, g: 0, b: 0, a: 0}
-  Health: 100
-  Speed: 0
+  Speed: {fileID: 0}
   CanMove: 0
   EatingSpeed: 0
   CanEat: 0
@@ -450,6 +449,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  IsWarmBlooded: 0
+  FoodType: 
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5940,8 +5941,7 @@ MonoBehaviour:
   Gender: 
   WeightClass: 
   DeadColor: {r: 0.6037736, g: 0.20790316, b: 0.20790316, a: 0}
-  Health: 100
-  Speed: 0
+  Speed: {fileID: 0}
   CanMove: 0
   EatingSpeed: 0
   CanEat: 0
@@ -5972,3 +5972,5 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  IsWarmBlooded: 0
+  FoodType: 

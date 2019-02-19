@@ -7,22 +7,22 @@ public class Animal : MonoBehaviour
 {
 
 	public string Name;
-	public Color SkinColor;
-	public Color EyeColor;
+	public ColorData SkinColor;
+	public ColorData EyeColor;
 	public string Habitat;
 	public string Affiliation; // if friendly or hostile or neutral
 	public string Message; // Flavor text that activates when approach
 	public string Gender;
 	public string WeightClass; // light, average, heavy
-	public Color DeadColor; //color turns to in death
+	public ColorData DeadColor; //color turns to in death
 	//public IntData Health = 100; //No getters or setters yet
-	public FloatData Speed; //NO getters or setters yet
-	public bool CanMove; //No getters or setters yet
-	public float EatingSpeed; // NO getters or setters yet
-	public bool CanEat; // No getters or setters yet
+	public FloatData Speed; 
+	public bool CanMove; 
+	public float EatingSpeed; 
+	public bool CanEat;
 	public UnityEvent Event; //Doesn't need getters/setters?
-	public bool IsWarmBlooded; //No getters or setters yet
-	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc., no getters or setters yet
+	public bool IsWarmBlooded; 
+	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
 
 	// Use this for initialization
 	void Start () {
@@ -41,22 +41,22 @@ public class Animal : MonoBehaviour
 		Name = newName;
 	}
 
-	public Color getSkinColor()
+	public ColorData getSkinColor()
 	{
 		return SkinColor;
 	}
 
-	public void setSkinColor(Color newColor)
+	public void setSkinColor(ColorData newColor)
 	{
 		SkinColor = newColor;
 	}
 
-	public Color getEyeColor()
+	public ColorData getEyeColor()
 	{
 		return EyeColor;
 	}
 
-	public void setEyeColor(Color newColor)
+	public void setEyeColor(ColorData newColor)
 	{
 		EyeColor = newColor;
 	}
@@ -111,16 +111,75 @@ public class Animal : MonoBehaviour
 		WeightClass = newWeightClass;
 	}
 
-	public Color getDeadColor()
+	public ColorData getDeadColor()
 	{
 		return DeadColor;
 	}
 
-	public void setDeadColor(Color newDeadColor)
+	public void setDeadColor(ColorData newDeadColor)
 	{
 		DeadColor = newDeadColor;
 	}
 
+	public FloatData getSpeed()
+	{
+		return Speed;
+	}
+
+	public void setSpeed(FloatData newSpeed)
+	{
+		Speed = newSpeed;
+	}
+
+	public bool getCanMove()
+	{
+		return CanMove;
+	}
+
+	public void setCanMove(bool newCanMove)
+	{
+		CanMove = newCanMove;
+	}
+
+	public float getEatingSpeed()
+	{
+		return EatingSpeed;
+	}
+
+	public void setEatingSpeed(float newEatingSpeed)
+	{
+		EatingSpeed = newEatingSpeed;
+	}
+
+	public bool getCanEat()
+	{
+		return CanEat;
+	}
+
+	public void setCanEat(bool newCanEat)
+	{
+		CanEat = newCanEat;
+	}
+
+	public bool getIsWarmBlooded()
+	{
+		return IsWarmBlooded;
+	}
+
+	public void setIsWarmBlooded(bool newIsWarmBlooded)
+	{
+		IsWarmBlooded = newIsWarmBlooded;
+	}
+
+	public string getFoodType()
+	{
+		return FoodType;
+	}
+
+	public void setFoodType(string newFoodType)
+	{
+		FoodType = newFoodType;
+	}
 	public void getKilled()
 	{
 		SkinColor = DeadColor;
