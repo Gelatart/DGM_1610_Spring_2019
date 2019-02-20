@@ -432,14 +432,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  SkinColor: {r: 0, g: 0, b: 0, a: 0}
-  EyeColor: {r: 0, g: 0, b: 0, a: 0}
+  SkinColor: {fileID: 0}
+  EyeColor: {fileID: 0}
   Habitat: 
   Affiliation: 
   Message: 
   Gender: 
   WeightClass: 
-  DeadColor: {r: 0, g: 0, b: 0, a: 0}
+  DeadColor: {fileID: 0}
   Speed: {fileID: 0}
   CanMove: 0
   EatingSpeed: 0
@@ -5933,14 +5933,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  SkinColor: {r: 0.1715023, g: 0.7735849, b: 0.2797869, a: 0}
-  EyeColor: {r: 0, g: 0, b: 0, a: 0}
+  SkinColor: {fileID: 11400000, guid: 6a827e7ce69c347429765a2fa0bf6186, type: 2}
+  EyeColor: {fileID: 0}
   Habitat: 
   Affiliation: 
   Message: 
   Gender: 
   WeightClass: 
-  DeadColor: {r: 0.6037736, g: 0.20790316, b: 0.20790316, a: 0}
+  DeadColor: {fileID: 11400000, guid: 00613f363874b410b86a9474d769ecd8, type: 2}
   Speed: {fileID: 0}
   CanMove: 0
   EatingSpeed: 0

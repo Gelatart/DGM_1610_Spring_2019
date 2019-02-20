@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Reptile : Animal
 {
+
+    public ColorData ScaleColor;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,15 @@ public class Reptile : Animal
     void Update()
     {
         
+    }
+
+    public ColorData getScaleColor()
+    {
+        return ScaleColor;
+    }
+
+    public void setScaleColor(ColorData newScaleColor)
+    {
+        ScaleColor = newScaleColor;
     }
 }
