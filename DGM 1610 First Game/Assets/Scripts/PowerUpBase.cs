@@ -13,4 +13,9 @@ public class PowerUpBase : ScriptableObject
     {
         Value = 20;
     }
+
+    public void OnPowerUp(float addValue)
+    {
+        Value += addValue;
+    }
 }
