@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Health : PowerUpBase
 {
+    
+    ValueCap = 100;
     // Start is called before the first frame update
     void OnEnable()
     {

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Shield : PowerUpBase
 {
+    
+    ValueCap = 50;
     // Start is called before the first frame update
     void OnEnable()
     {

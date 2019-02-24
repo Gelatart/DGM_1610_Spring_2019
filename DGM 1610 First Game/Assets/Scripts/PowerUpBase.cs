@@ -7,6 +7,8 @@ public class PowerUpBase : ScriptableObject
 {
     
     public float Value = 10.5f;
+    public float ValueCap;
+    
     
     // Start is called before the first frame update
     void OnEnable()
@@ -17,5 +19,9 @@ public class PowerUpBase : ScriptableObject
     public void OnPowerUp(float addValue)
     {
         Value += addValue;
+        if (Value > ValueCap)
+        {
+            Value = ValueCap;
+        }
     }
 }
