@@ -22,6 +22,10 @@ public class PowerUpBase : ScriptableObject
         if (Value > ValueCap)
         {
             Value = ValueCap;
+        } 
+        else if (Value <= 0)
+        {
+            print("You are dead. INSERT FUNCTION THAT ENABLES DEATH");
         }
     }
 }
