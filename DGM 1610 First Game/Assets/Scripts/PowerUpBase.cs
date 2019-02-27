@@ -25,7 +25,7 @@ public class PowerUpBase : ScriptableObject
         } 
         else if (Value <= 0)
         {
-            print("You are dead. INSERT FUNCTION THAT ENABLES DEATH");
+            //print("You are dead. INSERT FUNCTION THAT ENABLES DEATH");
         }
     }
 }
