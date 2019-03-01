@@ -202,6 +202,7 @@
 "Assets/Scripts/Mammal.cs"
 "Assets/Scripts/MonoEvents.cs"
 "Assets/Scripts/Moth.cs"
+"Assets/Scripts/MoveCharacter.cs"
 "Assets/Scripts/Pangolin.cs"
 "Assets/Scripts/PangolinEvent.cs"
 "Assets/Scripts/PowerUpBase.cs"

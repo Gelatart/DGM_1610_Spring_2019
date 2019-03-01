@@ -1,0 +1,30 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class MoveCharacter : MonoBehaviour
+{
+    public float Speed = 3;
+    private CharacterController controller;
+    private Vector3 position;
+    public UnityEvent OnGrounded, OffGrounded;
+    // Start is called before the first frame update
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (controller.isGrounded) {
+            OnGrounded.Invoke();
+        } else {
+            OffGrounded.Invoke();
+        }
+        position.y = Input.GetAxis("Vertical")*Speed*Time.deltaTime;
+        position.x = Input.GetAxis("Horizontal")*Speed*Time.deltaTime;
+        controller.Move(position);
+    }
+}
