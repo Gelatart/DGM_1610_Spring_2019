@@ -5,10 +5,10 @@ using UnityEngine.Events;
 
 public class MoveCharacter : MonoBehaviour
 {
-    public float Speed = 3;
     private CharacterController controller;
-    private Vector3 position;
     public UnityEvent OnGrounded, OffGrounded;
+
+    public MoveBase CharacterMover;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +23,9 @@ public class MoveCharacter : MonoBehaviour
         } else {
             OffGrounded.Invoke();
         }
-        position.y = Input.GetAxis("Vertical")*Speed*Time.deltaTime;
-        position.x = Input.GetAxis("Horizontal")*Speed*Time.deltaTime;
-        controller.Move(position);
+
+        CharacterMover.Move(controller);
+
+
     }
 }
