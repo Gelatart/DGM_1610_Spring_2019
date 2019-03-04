@@ -18,7 +18,7 @@ public class LightSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsActivated = false && LightActivated = true)
+        if (IsActivated == false && LightActivated == true)
         {
             ActivateLight.Invoke();
         }   

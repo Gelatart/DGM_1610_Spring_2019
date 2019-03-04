@@ -188,6 +188,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+"Assets/Scripts/AmmoData.cs"
 "Assets/Scripts/Amphibian.cs"
 "Assets/Scripts/Animal.cs"
 "Assets/Scripts/Bird.cs"
@@ -201,6 +202,7 @@
 "Assets/Scripts/FloatData.cs"
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/IntData.cs"
+"Assets/Scripts/LightSwitch.cs"
 "Assets/Scripts/Mammal.cs"
 "Assets/Scripts/MonoEvents.cs"
 "Assets/Scripts/Moth.cs"
