@@ -10,14 +10,9 @@ public class Conditionals : MonoBehaviour
     //public bool CanWalk;
     public int Number = 11;
     public string Password;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (OnBool)
         {
