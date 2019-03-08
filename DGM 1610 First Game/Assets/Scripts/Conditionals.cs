@@ -25,20 +25,20 @@ public class Conditionals : MonoBehaviour
 
         if (Number >= 10)
         {
-            print("Greater");
+            //print("Greater");
         }
         else
         {
-            print("Lesser");
+            //print("Lesser");
         }
 
         if (Password == "OU812")
         {
-            print("The password is correct.");
+            //print("The password is correct.");
         }
         else
         {
-            print("The password is incorrect.");
+            //print("The password is incorrect.");
         }
     }
 }
