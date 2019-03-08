@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class LightSwitch : MonoBehaviour
 {
     //Figure out way to make bools or whatever that will cause light switch event to activate
-    public bool LightActivated;
+    public bool LightActivate;
     public bool IsActivated = false;
     public UnityEvent ActivateLight;
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class LightSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsActivated == false && LightActivated == true)
+        if (IsActivated == false && LightActivate == true)
         {
             ActivateLight.Invoke();
         }   
