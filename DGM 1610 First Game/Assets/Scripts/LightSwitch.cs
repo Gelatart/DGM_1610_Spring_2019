@@ -8,7 +8,7 @@ public class LightSwitch : MonoBehaviour
     //Figure out way to make bools or whatever that will cause light switch event to activate
     public bool LightActivate;
     public bool IsActivated = false;
-    public UnityEvent ActivateLight;
+    public UnityEvent ActivateLight, DeactivateLight;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +22,9 @@ public class LightSwitch : MonoBehaviour
         {
             ActivateLight.Invoke();
         }   
+        else if (IsActivated == true && LightActivate == false)
+        {
+            DeactivateLight.Invoke();
+        }
     }
 }

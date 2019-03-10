@@ -8,7 +8,7 @@ public class Door : MonoBehaviour
     public bool IsOpen = false;
     public bool WillOpen;
     //make it so if it is open and activate, it closes and vice versa, using if statements
-    public UnityEvent OpenDoor;
+    public UnityEvent OpenDoor, CloseDoor;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +21,10 @@ public class Door : MonoBehaviour
         if (IsOpen == false && WillOpen == true)
         {
             OpenDoor.Invoke();
+        }
+        else if (IsOpen == true && WillOpen == false)
+        {
+            CloseDoor.Invoke();
         }   
     }
 }
