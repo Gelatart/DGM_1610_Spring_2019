@@ -11,6 +11,7 @@ public class Fish : Animal
 	void Start () {
 		print("Hello, World!");
 		IsWarmBlooded = false;
+		newColor = Color.blue;
 	}
 	
 	// Update is called once per frame

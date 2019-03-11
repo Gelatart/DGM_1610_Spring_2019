@@ -7,7 +7,12 @@ public class Animal : MonoBehaviour
 {
 
 	public string Name;
+	public FloatData Health = 100; //No getters or setters yet
+	public FloatData Speed; 
+	public bool CanMove; 
 	public ColorData SkinColor;
+	protected Color newColor;
+	
 	public ColorData EyeColor;
 	public string Habitat;
 	public string Affiliation; // if friendly or hostile or neutral
@@ -15,9 +20,6 @@ public class Animal : MonoBehaviour
 	public string Gender;
 	public string WeightClass; // light, average, heavy
 	public ColorData DeadColor; //color turns to in death
-	//public IntData Health = 100; //No getters or setters yet
-	public FloatData Speed; 
-	public bool CanMove; 
 	public float EatingSpeed; 
 	public bool CanEat;
 	public UnityEvent Event; //Doesn't need getters/setters?
