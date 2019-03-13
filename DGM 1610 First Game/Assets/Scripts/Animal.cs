@@ -7,7 +7,7 @@ public class Animal : MonoBehaviour
 {
 
 	public string Name;
-	public FloatData Health = 100; //No getters or setters yet
+	public FloatData Health = 100f; //No getters or setters yet
 	public FloatData Speed; 
 	public bool CanMove; 
 	public ColorData SkinColor;
