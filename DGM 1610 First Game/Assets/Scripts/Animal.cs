@@ -35,7 +35,7 @@ public class Animal : MonoBehaviour
 	void Update () {
 		
 	}
-	public string getName()
+	/*public string getName()
 	{
 		return Name;
 	}
@@ -182,7 +182,7 @@ public class Animal : MonoBehaviour
 	public void setFoodType(string newFoodType)
 	{
 		FoodType = newFoodType;
-	}
+	}*/
 	public void getKilled()
 	{
 		SkinColor = DeadColor;
