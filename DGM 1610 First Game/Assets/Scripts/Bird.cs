@@ -18,7 +18,7 @@ public class Bird : Animal
 		
     }
 
-    public Color getBeakColor()
+    /*public Color getBeakColor()
     {
         return BeakColor;
     }
@@ -26,5 +26,5 @@ public class Bird : Animal
     public void setBeakColor(Color newBeakColor)
     {
         BeakColor = newBeakColor;
-    }
+    }*/
 }

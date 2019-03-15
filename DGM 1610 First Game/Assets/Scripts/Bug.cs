@@ -17,7 +17,7 @@ public class Bug : Animal
 		
     }
 
-    public Color getWingColor()
+    /*public Color getWingColor()
     {
 	    return WingColor;
     }
@@ -25,5 +25,5 @@ public class Bug : Animal
     public void setWingColor(Color newWingColor)
     {
 	    WingColor = newWingColor;
-    }
+    }*/
 }

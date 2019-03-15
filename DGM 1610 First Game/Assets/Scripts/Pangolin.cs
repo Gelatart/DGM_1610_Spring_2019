@@ -20,7 +20,7 @@ public class Pangolin : Mammal
 		
 	}
 
-	public Color getScaleColor()
+	/*public Color getScaleColor()
 	{
 		return ScaleColor;
 	}
@@ -28,5 +28,5 @@ public class Pangolin : Mammal
 	public void setScaleColor(Color newScaleColor)
 	{
 		ScaleColor = newScaleColor;
-	}
+	}*/
 }

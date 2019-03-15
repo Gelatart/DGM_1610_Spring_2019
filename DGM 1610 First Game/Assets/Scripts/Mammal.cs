@@ -17,7 +17,7 @@ public class Mammal : Animal
 		
     }
 
-    public ColorData getFurColor()
+    /*public ColorData getFurColor()
     {
         return FurColor;
     }
@@ -25,5 +25,5 @@ public class Mammal : Animal
     public void setFurColor(ColorData newFurColor)
     {
         FurColor = newFurColor;
-    }
+    }*/
 }

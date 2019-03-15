@@ -19,7 +19,7 @@ public class Reptile : Animal
         
     }
 
-    public ColorData getScaleColor()
+    /*public ColorData getScaleColor()
     {
         return ScaleColor;
     }
@@ -27,5 +27,5 @@ public class Reptile : Animal
     public void setScaleColor(ColorData newScaleColor)
     {
         ScaleColor = newScaleColor;
-    }
+    }*/
 }

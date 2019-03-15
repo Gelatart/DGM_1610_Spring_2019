@@ -20,7 +20,7 @@ public class Fish : Animal
 		
 	}
 
-	public Color getFinColor()
+	/*public Color getFinColor()
 	{
 		return FinColor;
 	}
@@ -28,5 +28,5 @@ public class Fish : Animal
 	public void setFinColor(Color newFinColor)
 	{
 		FinColor = newFinColor;
-	}
+	}*/
 }
