@@ -8,4 +8,5 @@ public class AmmoData : ScriptableObject
 {
     //public Ammo Value;? Would it be a PowerUp?
     //Need to fill in what it actually needs
+    public int Value;
 }
