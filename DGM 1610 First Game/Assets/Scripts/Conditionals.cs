@@ -8,7 +8,7 @@ public class Conditionals : MonoBehaviour
     public UnityEvent OnEvent, OffEvent;
     public bool OnBool;
     //public bool CanWalk;
-    public int Number = 11;
+    //public int Number = 11;
     public string Password;
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class Conditionals : MonoBehaviour
             OffEvent.Invoke();
         }
 
-        if (Number >= 10)
+        /*if (Number >= 10)
         {
             //print("Greater");
         }
@@ -39,6 +39,6 @@ public class Conditionals : MonoBehaviour
         else
         {
             //print("The password is incorrect.");
-        }
+        }*/
     }
 }

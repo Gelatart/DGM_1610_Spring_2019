@@ -29,7 +29,7 @@ public class Animal : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		Event.Invoke(); //still need to set details in Unity
-		//GetComponent<SpriteRenderer>().color = SkinColor.Value; //Try to fix this? Need to change color
+		GetComponent<SpriteRenderer>().color = SkinColor.Value; //Try to fix this? Need to change color
 	}	
 	// Update is called once per frame
 	void Update () {
