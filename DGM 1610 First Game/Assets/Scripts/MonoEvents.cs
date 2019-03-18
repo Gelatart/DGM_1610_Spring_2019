@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class MonoEvents : MonoBehaviour
 {
     
-    public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent;
+    public UnityEvent StartEvent, EnableEvent, DisableEvent, MouseDownEvent, UpdateEvent;
     
     // Start is called before the first frame update
     void Start()
@@ -23,6 +23,11 @@ public class MonoEvents : MonoBehaviour
     private void OnEnable()
     {
         EnableEvent.Invoke();
+    }
+    
+    private void OnDisable()
+    {
+        DisableEvent.Invoke();
     }
 
     private void OnMouseDown()
