@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class MonoEvents : MonoBehaviour
 {
     
-    public UnityEvent StartEvent, EnableEvent, DisableEvent, MouseDownEvent, MouseUpEvent, UpdateEvent;
+    public UnityEvent StartEvent, EnableEvent, DisableEvent, MouseDownEvent, MouseUpEvent, UpdateEvent, TriggerEnterEvent;
     
     // Start is called before the first frame update
     void Start()
@@ -38,5 +38,10 @@ public class MonoEvents : MonoBehaviour
     private void OnMouseUp()
     {
         MouseUpEvent.Invoke();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        TriggerEnterEvent.Invoke();
     }
 }
