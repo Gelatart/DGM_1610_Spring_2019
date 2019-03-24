@@ -22,6 +22,34 @@ public class ReturnFunctions : MonoBehaviour
         return A - B;
     }
 
+    private int Multiply()
+    {
+        return A * B;
+    }
+
+    private int Divide()
+    {
+        return A / B;
+    }
+
+    private int Modulo()
+    {
+        return A % B;
+    }
+
+    private int AddSeries() //Trying to make a function that goes through adding numbers between two endpoints
+    {
+        private int D;
+        while (B > A)
+        {
+            D += B;
+            B--;
+        }
+
+        D += A;
+        return D;
+    }
+
     public Vector3 Move()
     {
         position.y = Input.GetAxis("Horizontal");
