@@ -12,4 +12,36 @@ public class Collection : ScriptableObject
    {
        CollectionList.Add(obj);
    }
+   
+   public void CollectionInfo() 
+   {
+       foreach (var obj in CollectionList)
+       {
+           Debug.Log(obj);
+       }
+   }
+
+   public void AmmoInfo()
+   {
+       foreach (var obj in CollectionList)
+       {
+           if(obj.name == "Ammo")
+           {
+               Debug.Log("We have ammo");
+               //AFTER TESTING: Change "We have ammo" to "We Have " + obj.Value + " ammo."
+           }
+       }
+   }
+
+   public void FuelInfo()
+   {
+       for (int i = 0; i < 10; i++)
+       //AFTER TESTING: change "i < 10" to "i < CollectionList.Count"
+       {
+           Debug.Log(i);
+           //AFTER TESTING: Change the debug log to "Debug.Log(CollectionList[i]);"
+           //Then put debug log inside "if(CollectionList[i].name == "Fuel") {}"
+       }
+   }
+   
 }
