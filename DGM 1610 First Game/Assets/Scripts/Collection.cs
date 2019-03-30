@@ -28,6 +28,7 @@ public class Collection : ScriptableObject
            if(obj.name == "Ammo")
            {
                Debug.Log("We have ammo");
+               Debug.Log("We have " + obj.Value + " ammo.");
                //AFTER TESTING: Change "We have ammo" to "We Have " + obj.Value + " ammo."
            }
        }
@@ -39,6 +40,11 @@ public class Collection : ScriptableObject
        //AFTER TESTING: change "i < 10" to "i < CollectionList.Count"
        {
            Debug.Log(i);
+           if (CollectionList[i].name == "Fuel")
+           {
+               Debug.Log(CollectionList[i]);
+           }
+          
            //AFTER TESTING: Change the debug log to "Debug.Log(CollectionList[i]);"
            //Then put debug log inside "if(CollectionList[i].name == "Fuel") {}"
        }
