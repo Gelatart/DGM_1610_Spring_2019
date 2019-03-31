@@ -49,5 +49,22 @@ public class Collection : ScriptableObject
            //Then put debug log inside "if(CollectionList[i].name == "Fuel") {}"
        }
    }
+
+   public void CollectableInfo()
+   {
+       int c = 0;
+       int value = 0;
+       for (int i = 0; i < CollectionList.Count; i++)
+       {
+           if (CollectionList[i].name == "Collectable")
+           {
+               Debug.Log("We have a collectable!");
+               c++;
+               //Insert code for grabbing value of the collectable
+           }
+       }
+
+       Debug.Log("We have " + c + " collectables, worth " + value + ".");
+   }
    
 }
