@@ -6,13 +6,16 @@ using UnityEngine.Events;
 public class MoveCharacter : MonoBehaviour
 {
     private CharacterController controller;
-    public UnityEvent OnGrounded, OffGrounded;
+    public UnityEvent OnGrounded, OffGrounded, AnimateNormalArm, AnimateMechanicalArm;
 
     public MoveBase CharacterMover;
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        AnimateArm.Invoke();
+        AnimateMechanicalArm.Invoke();
+        //Find a way to tie these to sprite animation, how to flip layer prominence and orientation based on character direction
     }
 
     // Update is called once per frame
