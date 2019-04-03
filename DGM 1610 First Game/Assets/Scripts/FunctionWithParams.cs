@@ -14,6 +14,22 @@ public class FunctionWithParams : MonoBehaviour
     {
         print(a + b);
     }
+    
+    private void SubtractData(float a, float b)
+    {
+        print(a - b);
+    }
+    
+    private void MultiplyData(float a, float b)
+    {
+        print(a * b);
+    }
+    
+    private void DivideData(float a, float b) 
+    {
+        print(a / b);    
+    }
+    
 
     private void OnTriggerEnter(Collider obj)
     {
