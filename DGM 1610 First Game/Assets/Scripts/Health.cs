@@ -11,7 +11,7 @@ public class Health : PowerUpBase //Make PowerUpBase later on when can?
     // Start is called before the first frame update
     void OnEnable()
     {
-        Value = 25;
+        Value = 25f;
     }
 
     // Update is called once per frame

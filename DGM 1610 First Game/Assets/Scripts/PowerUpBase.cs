@@ -13,7 +13,7 @@ public class PowerUpBase : ScriptableObject
     // Start is called before the first frame update
     void OnEnable()
     {
-        Value = 20;
+        Value = 20f;
     }
 
     public void OnPowerUp(float addValue)

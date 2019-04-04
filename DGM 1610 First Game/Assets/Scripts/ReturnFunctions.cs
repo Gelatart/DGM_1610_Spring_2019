@@ -39,7 +39,7 @@ public class ReturnFunctions : MonoBehaviour
 
     private int AddSeries() //Trying to make a function that goes through adding numbers between two endpoints
     {
-        private int D;
+        int D;
         while (B > A)
         {
             D += B;

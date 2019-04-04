@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class AmmoLevelBar : UpdateBar
 {
-    FillNumber = .2;
+    //FillNumber = .2;
 }
