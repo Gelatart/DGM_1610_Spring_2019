@@ -7,7 +7,7 @@ public class PowerUpBase : ScriptableObject
 {
     
     public float Value = 10.5f;
-    public float ValueCap;
+    public float ValueCap = 50f;
     
     
     // Start is called before the first frame update

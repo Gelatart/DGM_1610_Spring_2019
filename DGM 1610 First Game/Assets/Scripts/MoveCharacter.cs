@@ -13,7 +13,7 @@ public class MoveCharacter : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        AnimateArm.Invoke();
+        AnimateNormalArm.Invoke();
         AnimateMechanicalArm.Invoke();
         //Find a way to tie these to sprite animation, how to flip layer prominence and orientation based on character direction
     }

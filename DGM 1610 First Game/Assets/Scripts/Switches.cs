@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ using UnityEngine.Events;
 public class Switches : MonoBehaviour
 {
     
-    public Unity Event StartingEvent, PlayingEvent, DyingEvent, EndingEvent;
+    public UnityEvent StartingEvent, PlayingEvent, DyingEvent, EndingEvent;
     
     public enum States
     {
@@ -20,8 +21,8 @@ public class Switches : MonoBehaviour
     public States CurrentState;
 
     void Update()
-    
-        switch(CurrentState)
+    {
+        switch (CurrentState)
         {
             case States.Starting:
                 StartingEvent.Invoke();
@@ -39,5 +40,5 @@ public class Switches : MonoBehaviour
                 throw new ArgumentOutOfRangeException();
 
         }
-    
+    }
 }
