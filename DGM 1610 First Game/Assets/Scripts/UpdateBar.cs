@@ -11,12 +11,13 @@ public class UpdateBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BarImage = getComponent<Image>();
+        BarImage = GetComponent<Image>();
+        BarImage.fillAmount = 1.0f; //Replacement for fillAmount not working in Update
     }
 
     // Update is called once per frame
     void Update()
     {
-        BarImage.fillAmount;
+        //BarImage.fillAmount; //Not complete?
     }
 }
