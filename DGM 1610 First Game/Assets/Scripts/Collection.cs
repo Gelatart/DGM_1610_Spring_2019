@@ -31,7 +31,9 @@ public class Collection : ScriptableObject
                //Debug.Log("We have " + obj.Value + " ammo.");
                //Debug.Log("We have " + obj.GetType().GetProperty("Count").GetValue(obj) + " ammo."); //Testing? Make sure to list Ammo as "Count" in the object
                //AFTER TESTING: Change "We have ammo" to "We Have " + obj.Value + " ammo."
+               //REFERENCE: https://stackoverflow.com/questions/45630389/how-to-iterate-through-a-list-of-anonymous-objects
            }
+          
        }
    }
 

@@ -25,11 +25,15 @@ public class Animal : MonoBehaviour
 	public UnityEvent Event; //Doesn't need getters/setters?
 	public bool IsWarmBlooded; 
 	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
+	
+	private SpriteRenderer spriteR;
 
 	// Use this for initialization
 	void Start () {
 		Event.Invoke(); //still need to set details in Unity
-		GetComponent<SpriteRenderer>().color = SkinColor.Value; //Try to fix this? Need to change color
+		spriteR = gameObject.GetComponent<SpriteRenderer>();
+		spriteR.color = SkinColor.Value; //Try to fix this? Need to change color
+		//Reference: https://docs.unity3d.com/ScriptReference/SpriteRenderer-sprite.html (also for creating spriteR)
 	}	
 	// Update is called once per frame
 	void Update () {
