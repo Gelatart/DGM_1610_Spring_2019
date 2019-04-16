@@ -26,18 +26,21 @@ public class Animal : MonoBehaviour
 	public bool IsWarmBlooded; 
 	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
 	
-	private SpriteRenderer spriteR;
+	private SpriteRenderer spriteRender;
 
 	// Use this for initialization
 	void Start () {
 		Event.Invoke(); //still need to set details in Unity
-		spriteR = gameObject.GetComponent<SpriteRenderer>();
-		spriteR.color = SkinColor.Value; //Try to fix this? Need to change color
-		//Reference: https://docs.unity3d.com/ScriptReference/SpriteRenderer-sprite.html (also for creating spriteR)
+		spriteRender = gameObject.GetComponent<SpriteRenderer>();
+		spriteRender.color = SkinColor.Value; //Try to fix this? Need to change color
+		//Reference: https://docs.unity3d.com/ScriptReference/SpriteRenderer-sprite.html (also for creating spriteRender)
 	}	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Health.Value == 0)
+		{
+			getKilled();
+		}
 	}
 	/*public string getName()
 	{
