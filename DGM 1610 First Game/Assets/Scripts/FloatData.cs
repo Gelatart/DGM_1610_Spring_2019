@@ -20,4 +20,16 @@ public class FloatData : ScriptableObject
 	    Value += dataObj.Value;
     }
 
+    public void Init(float Value)
+    {
+	    this.Value = Value;
+    }
+    public static FloatData CreateInstance(float Value)
+    {
+	    var data = ScriptableObject.CreateInstance<FloatData>();
+	    data.Init(Value);
+	    return data;
+    }
+    //Source for Init and CreateInstance https://answers.unity.com/questions/310847/how-to-create-instance-of-scriptableobject-and-pas.html
+
 }

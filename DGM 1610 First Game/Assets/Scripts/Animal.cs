@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+//using System.Drawing;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,10 +8,10 @@ public class Animal : MonoBehaviour
 {
 
 	public string Name;
-	public FloatData Health = FloatData.CreateInstance(); 
+	public FloatData Health;
+	public ColorData SkinColor;
 	public FloatData Speed; 
 	public bool CanMove; 
-	public ColorData SkinColor = ColorData.CreateInstance();
 	protected Color newColor;
 	
 	public ColorData EyeColor;
@@ -26,11 +27,14 @@ public class Animal : MonoBehaviour
 	public bool IsWarmBlooded; 
 	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
 	
-	//Source for learning about CreateInstance: https://answers.unity.com/questions/310847/how-to-create-instance-of-scriptableobject-and-pas.html
+	
 	private SpriteRenderer spriteRender;
 
 	// Use this for initialization
 	void Start () {
+	    Health = FloatData.CreateInstance(10);
+	    SkinColor = ColorData.CreateInstance(Color.black);
+	    //Source for learning about CreateInstance: https://answers.unity.com/questions/310847/how-to-create-instance-of-scriptableobject-and-pas.html
 		Event.Invoke(); //still need to set details in Unity
 		spriteRender = gameObject.GetComponent<SpriteRenderer>();
 		spriteRender.color = SkinColor.Value; //Try to fix this? Need to change color
@@ -52,27 +56,6 @@ public class Animal : MonoBehaviour
 	{
 		Name = newName;
 	}
-
-	public ColorData getSkinColor()
-	{
-		return SkinColor;
-	}
-
-	public void setSkinColor(ColorData newColor)
-	{
-		SkinColor = newColor;
-	}
-
-	public ColorData getEyeColor()
-	{
-		return EyeColor;
-	}
-
-	public void setEyeColor(ColorData newColor)
-	{
-		EyeColor = newColor;
-	}
-
 	public string getHabitat()
 	{
 		return Habitat;
