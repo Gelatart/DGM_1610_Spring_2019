@@ -7,10 +7,10 @@ public class Animal : MonoBehaviour
 {
 
 	public string Name;
-	public FloatData Health; 
+	public FloatData Health = FloatData.CreateInstance(); 
 	public FloatData Speed; 
 	public bool CanMove; 
-	public ColorData SkinColor;
+	public ColorData SkinColor = ColorData.CreateInstance();
 	protected Color newColor;
 	
 	public ColorData EyeColor;
@@ -26,6 +26,7 @@ public class Animal : MonoBehaviour
 	public bool IsWarmBlooded; 
 	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
 	
+	//Source for learning about CreateInstance: https://answers.unity.com/questions/310847/how-to-create-instance-of-scriptableobject-and-pas.html
 	private SpriteRenderer spriteRender;
 
 	// Use this for initialization
@@ -34,6 +35,7 @@ public class Animal : MonoBehaviour
 		spriteRender = gameObject.GetComponent<SpriteRenderer>();
 		spriteRender.color = SkinColor.Value; //Try to fix this? Need to change color
 		//Reference: https://docs.unity3d.com/ScriptReference/SpriteRenderer-sprite.html (also for creating spriteRender)
+		Health.Value = 10;
 	}	
 	// Update is called once per frame
 	void Update () {

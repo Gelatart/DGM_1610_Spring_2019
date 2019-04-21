@@ -15,6 +15,6 @@ public class RunAnims : MonoBehaviour
 
     void Update()
     {
-        anims.SetFloat("Speed," Speed);
+        anims.SetFloat("Speed", Speed);
     }
 }
