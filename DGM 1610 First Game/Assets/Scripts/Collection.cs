@@ -6,9 +6,9 @@ using UnityEngine;
 public class Collection : ScriptableObject
 {
 
-   public List<Object> CollectionList;
+   public List<FloatData> CollectionList;
    
-   public void Collect(Object obj)
+   public void Collect(FloatData obj)
    {
        CollectionList.Add(obj);
    }
@@ -27,8 +27,8 @@ public class Collection : ScriptableObject
        {
            if(obj.name == "Ammo")
            {
-               Debug.Log("We have ammo");
-               //Debug.Log("We have " + obj.Value + " ammo.");
+               //Debug.Log("We have ammo");
+               Debug.Log("We have " + obj.Value + " ammo.");
                //Debug.Log("We have " + obj.GetType().GetProperty("Count").GetValue(obj) + " ammo."); //Testing? Make sure to list Ammo as "Count" in the object
                //AFTER TESTING: Change "We have ammo" to "We Have " + obj.Value + " ammo."
                //REFERENCE: https://stackoverflow.com/questions/45630389/how-to-iterate-through-a-list-of-anonymous-objects
@@ -39,10 +39,10 @@ public class Collection : ScriptableObject
 
    public void FuelInfo()
    {
-       for (int i = 0; i < 10; i++)
+       for (var i = 0; i < CollectionList.Count; i++)
        //AFTER TESTING: change "i < 10" to "i < CollectionList.Count"
        {
-           Debug.Log(i);
+           //Debug.Log(i);
            if (CollectionList[i].name == "Fuel")
            {
                Debug.Log(CollectionList[i]);
@@ -57,7 +57,7 @@ public class Collection : ScriptableObject
    {
        int c = 0;
        int value = 0;
-       for (int i = 0; i < CollectionList.Count; i++)
+       for (var i = 0; i < CollectionList.Count; i++)
        {
            if (CollectionList[i].name == "Collectable")
            {
