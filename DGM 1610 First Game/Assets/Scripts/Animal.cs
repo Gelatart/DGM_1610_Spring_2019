@@ -32,152 +32,35 @@ public class Animal : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
-	    Health = FloatData.CreateInstance(10);
+	    Health = FloatData.CreateInstance(1.0f);
+	    //Health = GameObject.Find("Health").GetComponent<FloatData>();
 	    SkinColor = ColorData.CreateInstance(Color.black);
 	    //Source for learning about CreateInstance: https://answers.unity.com/questions/310847/how-to-create-instance-of-scriptableobject-and-pas.html
 		Event.Invoke(); //still need to set details in Unity
 		spriteRender = gameObject.GetComponent<SpriteRenderer>();
-		spriteRender.color = SkinColor.Value; //Try to fix this? Need to change color
+		//spriteRender.color = SkinColor.Value; //Try to fix this? Need to change color
 		//Reference: https://docs.unity3d.com/ScriptReference/SpriteRenderer-sprite.html (also for creating spriteRender)
-		Health.Value = 10;
+		//Health.Value = 10;
 	}	
 	// Update is called once per frame
 	void Update () {
-		if (Health.Value == 0)
+		if (Health.Value == 0.0f)
 		{
 			getKilled();
 		}
 	}
-	/*public string getName()
-	{
-		return Name;
-	}
-	public void setName(string newName)
-	{
-		Name = newName;
-	}
-	public string getHabitat()
-	{
-		return Habitat;
-	}
 
-	public void setHabitat(string newHabitat)
+	public void decreaseHealth()
 	{
-		Habitat = newHabitat;
+		Health.Value = Health.Value - 0.1f;
+		Debug.Log("oof");
 	}
-
-	public string getAffiliation()
-	{
-		return Affiliation;
-	}
-
-	public void setAffiliation(string newAffiliation)
-	{
-		Affiliation = newAffiliation;
-	}
-
-	public string getMessage()
-	{
-		return Message;
-	}
-
-	public void setMessage(string newMessage)
-	{
-		Message = newMessage;
-	}
-
-	public string getGender()
-	{
-		return Gender;
-	}
-
-	public void setGender(string newGender)
-	{
-		Gender = newGender;
-	}
-
-	public string getWeightClass()
-	{
-		return WeightClass;
-	}
-
-	public void setWeightClass(string newWeightClass)
-	{
-		WeightClass = newWeightClass;
-	}
-
-	public ColorData getDeadColor()
-	{
-		return DeadColor;
-	}
-
-	public void setDeadColor(ColorData newDeadColor)
-	{
-		DeadColor = newDeadColor;
-	}
-
-	public FloatData getSpeed()
-	{
-		return Speed;
-	}
-
-	public void setSpeed(FloatData newSpeed)
-	{
-		Speed = newSpeed;
-	}
-
-	public bool getCanMove()
-	{
-		return CanMove;
-	}
-
-	public void setCanMove(bool newCanMove)
-	{
-		CanMove = newCanMove;
-	}
-
-	public float getEatingSpeed()
-	{
-		return EatingSpeed;
-	}
-
-	public void setEatingSpeed(float newEatingSpeed)
-	{
-		EatingSpeed = newEatingSpeed;
-	}
-
-	public bool getCanEat()
-	{
-		return CanEat;
-	}
-
-	public void setCanEat(bool newCanEat)
-	{
-		CanEat = newCanEat;
-	}
-
-	public bool getIsWarmBlooded()
-	{
-		return IsWarmBlooded;
-	}
-
-	public void setIsWarmBlooded(bool newIsWarmBlooded)
-	{
-		IsWarmBlooded = newIsWarmBlooded;
-	}
-
-	public string getFoodType()
-	{
-		return FoodType;
-	}
-
-	public void setFoodType(string newFoodType)
-	{
-		FoodType = newFoodType;
-	}*/
+	
 	public void getKilled()
 	{
 		SkinColor = DeadColor;
 		EyeColor = DeadColor;
+		spriteRender.color = DeadColor.Value;
+		Debug.Log("I die");
 	}
 }

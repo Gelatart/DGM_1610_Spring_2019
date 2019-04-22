@@ -16,13 +16,13 @@ public class UpdateBar : MonoBehaviour
     void Start()
     {
         BarImage = GetComponent<Image>();
-        BarImage.fillAmount = 1.0f; //Replacement for fillAmount not working in Update
+        //BarImage.fillAmount = 1.0f; //Replacement for fillAmount not working in Update
     }
 
     // Update is called once per frame
     void Update()
     {
-        //BarImage.fillAmount; //
+        BarImage.fillAmount = FillNumber.Value; 
         if (IsAffected)
         {
             EffectDeterminant();
