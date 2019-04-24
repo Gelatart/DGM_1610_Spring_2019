@@ -6454,7 +6454,7 @@ Transform:
   m_GameObject: {fileID: 627938046}
   m_LocalRotation: {x: 0.025894646, y: -0.06595463, z: -0.54363316, w: 0.8363268}
   m_LocalPosition: {x: -0.14403307, y: -0.25065672, z: -0.016649809}
-  m_LocalScale: {x: 1.4183993, y: 1.4183993, z: 1.4183993}
+  m_LocalScale: {x: 1.142336, y: 1.142336, z: 1.142336}
   m_Children: []
   m_Father: {fileID: 1309661858}
   m_RootOrder: 0
@@ -12434,7 +12434,7 @@ Transform:
   m_GameObject: {fileID: 1261835741}
   m_LocalRotation: {x: 0.020665605, y: -0.0658282, z: -0.41973278, w: 0.9050216}
   m_LocalPosition: {x: 0.171, y: -0.46, z: -0.014}
-  m_LocalScale: {x: 1.4183995, y: 1.4183993, z: 1.4183995}
+  m_LocalScale: {x: 1.142336, y: 1.142336, z: 1.142336}
   m_Children: []
   m_Father: {fileID: 1309661858}
   m_RootOrder: 3
@@ -12632,7 +12632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1299210057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12669,7 +12669,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300002, guid: fad265a38100e8d42b272669996a97ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12790,6 +12790,7 @@ GameObject:
   - component: {fileID: 1332749775}
   - component: {fileID: 1332749776}
   - component: {fileID: 1332749777}
+  - component: {fileID: 1332749778}
   m_Layer: 0
   m_Name: Arm-Base-Piece
   m_TagString: Untagged
@@ -12879,6 +12880,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1332749778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332749774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1eea478004903842aee7ecdc31ac3a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
 --- !u!1 &1344016623
 GameObject:
   m_ObjectHideFlags: 0
@@ -13478,7 +13492,7 @@ Transform:
   m_GameObject: {fileID: 1580663699}
   m_LocalRotation: {x: 0.020665605, y: -0.0658282, z: -0.41973278, w: 0.9050216}
   m_LocalPosition: {x: 0.009, y: -0.257, z: -0.036}
-  m_LocalScale: {x: 1.4183995, y: 1.4183993, z: 1.4183995}
+  m_LocalScale: {x: 1.142336, y: 1.142336, z: 1.142336}
   m_Children: []
   m_Father: {fileID: 1309661858}
   m_RootOrder: 1
@@ -14530,6 +14544,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1332749777}
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Danger
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   CollisionEnterEvent:
@@ -14675,7 +14700,7 @@ Transform:
   m_GameObject: {fileID: 1888875271}
   m_LocalRotation: {x: 0.020665605, y: -0.0658282, z: -0.41973278, w: 0.9050216}
   m_LocalPosition: {x: 0.08, y: -0.363, z: -0.047}
-  m_LocalScale: {x: 1.4183995, y: 1.4183993, z: 1.4183995}
+  m_LocalScale: {x: 1.142336, y: 1.142336, z: 1.142336}
   m_Children: []
   m_Father: {fileID: 1309661858}
   m_RootOrder: 2
