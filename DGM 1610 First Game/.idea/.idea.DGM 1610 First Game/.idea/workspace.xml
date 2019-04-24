@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0774af67-b7bc-4c0d-8e3a-9d303b55a1bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM 1610 First Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM 1610 First Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM 1610 First Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM 1610 First Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM 1610 First Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM 1610 First Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/.idea/.idea.Assets/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.idea/.idea.Assets/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpdateBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpdateBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/DanielWoodRendered004(PNG).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/DanielWoodRendered004(PNG).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,46 +20,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FloatData.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="195">
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
-                <marker date="1556036282054" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556036282054" expanded="true" signature="139:885" ph="{...}" />
-                <marker date="1556036282054" expanded="true" signature="229:324" ph="{...}" />
-                <marker date="1556036282054" expanded="true" signature="376:410" ph="{...}" />
-                <marker date="1556036282054" expanded="true" signature="458:499" ph="{...}" />
-                <marker date="1556036282054" expanded="true" signature="534:571" ph="{...}" />
-                <marker date="1556036282054" expanded="true" signature="627:742" ph="{...}" />
+                <marker date="1555833598435" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555833598435" expanded="true" signature="139:885" ph="{...}" />
+                <marker date="1555833598435" expanded="true" signature="229:324" ph="{...}" />
+                <marker date="1555833598435" expanded="true" signature="376:410" ph="{...}" />
+                <marker date="1555833598435" expanded="true" signature="458:499" ph="{...}" />
+                <marker date="1555833598435" expanded="true" signature="534:571" ph="{...}" />
+                <marker date="1555833598435" expanded="true" signature="627:742" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collection.cs" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="41">
               <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
-                <marker date="1556036282048" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556036282048" expanded="true" signature="140:2014" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="227:269" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="306:404" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="354:399" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="431:1054" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="479:1049" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="522:1029" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="656:1016" ph="/* Debug.Log(&quot;We have &quot; + obj.GetType().GetProperty(&quot;Count&quot;).GetValue(obj) + &quot; ammo.&quot;); //Testing? Make sure to l ... */" />
-                <marker date="1556036282048" expanded="true" signature="1081:1556" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="1210:1551" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="1295:1366" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="1389:1542" ph="/* AFTER TESTING: Change the debug log to &quot;Debug.Log(CollectionList[i]);&quot; ... */" />
-                <marker date="1556036282048" expanded="true" signature="1590:2008" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="1689:1928" ph="{...}" />
-                <marker date="1556036282048" expanded="true" signature="1754:1919" ph="{...}" />
+                <marker date="1555995898451" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555995898451" expanded="true" signature="140:2014" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="227:269" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="306:404" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="354:399" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="431:1054" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="479:1049" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="522:1029" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="656:1016" ph="/* Debug.Log(&quot;We have &quot; + obj.GetType().GetProperty(&quot;Count&quot;).GetValue(obj) + &quot; ammo.&quot;); //Testing? Make sure to l ... */" />
+                <marker date="1555995898451" expanded="true" signature="1081:1556" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="1210:1551" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="1295:1366" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="1389:1542" ph="/* AFTER TESTING: Change the debug log to &quot;Debug.Log(CollectionList[i]);&quot; ... */" />
+                <marker date="1555995898451" expanded="true" signature="1590:2008" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="1689:1928" ph="{...}" />
+                <marker date="1555995898451" expanded="true" signature="1754:1919" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -78,15 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="928" />
-    <option name="y" value="130" />
+    <option name="x" value="346" />
+    <option name="y" value="131" />
     <option name="width" value="999" />
     <option name="height" value="917" />
   </component>
@@ -96,27 +94,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DGM 1610 First Game" type="483dac07:UnityExplorerNode$Root" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DGM 1610 First Game" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -144,11 +130,14 @@
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach Unity.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -166,11 +155,12 @@
       <workItem from="1555044718252" duration="9000" />
       <workItem from="1555949605324" duration="3168000" />
       <workItem from="1556038970324" duration="599000" />
+      <workItem from="1556116664213" duration="548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4440000" />
+    <option name="totallyTimeSpent" value="4988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,46 +172,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="928" y="130" width="999" height="917" extended-state="0" />
+    <frame x="346" y="131" width="999" height="917" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15867944" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Unity" order="15" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Performance Profiler" order="14" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" order="14" />
+      <window_info anchor="bottom" id="Unity" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -233,85 +221,44 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <marker date="1556036282054" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556036282054" expanded="true" signature="139:885" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="229:324" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="376:410" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="458:499" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="534:571" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="627:742" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding>
-            <marker date="1556036282048" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556036282048" expanded="true" signature="140:2014" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="227:269" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="306:404" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="354:399" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="431:1054" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="479:1049" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="522:1029" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="656:1016" ph="/* Debug.Log(&quot;We have &quot; + obj.GetType().GetProperty(&quot;Count&quot;).GetValue(obj) + &quot; ammo.&quot;); //Testing? Make sure to l ... */" />
-            <marker date="1556036282048" expanded="true" signature="1081:1556" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1210:1551" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1295:1366" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1389:1542" ph="/* AFTER TESTING: Change the debug log to &quot;Debug.Log(CollectionList[i]);&quot; ... */" />
-            <marker date="1556036282048" expanded="true" signature="1590:2008" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1689:1928" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1754:1919" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Animal.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="195">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <marker date="1556036282054" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556036282054" expanded="true" signature="139:885" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="229:324" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="376:410" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="458:499" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="534:571" ph="{...}" />
-            <marker date="1556036282054" expanded="true" signature="627:742" ph="{...}" />
+            <marker date="1555833598435" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555833598435" expanded="true" signature="139:885" ph="{...}" />
+            <marker date="1555833598435" expanded="true" signature="229:324" ph="{...}" />
+            <marker date="1555833598435" expanded="true" signature="376:410" ph="{...}" />
+            <marker date="1555833598435" expanded="true" signature="458:499" ph="{...}" />
+            <marker date="1555833598435" expanded="true" signature="534:571" ph="{...}" />
+            <marker date="1555833598435" expanded="true" signature="627:742" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collection.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="41">
           <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
-            <marker date="1556036282048" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556036282048" expanded="true" signature="140:2014" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="227:269" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="306:404" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="354:399" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="431:1054" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="479:1049" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="522:1029" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="656:1016" ph="/* Debug.Log(&quot;We have &quot; + obj.GetType().GetProperty(&quot;Count&quot;).GetValue(obj) + &quot; ammo.&quot;); //Testing? Make sure to l ... */" />
-            <marker date="1556036282048" expanded="true" signature="1081:1556" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1210:1551" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1295:1366" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1389:1542" ph="/* AFTER TESTING: Change the debug log to &quot;Debug.Log(CollectionList[i]);&quot; ... */" />
-            <marker date="1556036282048" expanded="true" signature="1590:2008" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1689:1928" ph="{...}" />
-            <marker date="1556036282048" expanded="true" signature="1754:1919" ph="{...}" />
+            <marker date="1555995898451" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555995898451" expanded="true" signature="140:2014" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="227:269" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="306:404" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="354:399" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="431:1054" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="479:1049" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="522:1029" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="656:1016" ph="/* Debug.Log(&quot;We have &quot; + obj.GetType().GetProperty(&quot;Count&quot;).GetValue(obj) + &quot; ammo.&quot;); //Testing? Make sure to l ... */" />
+            <marker date="1555995898451" expanded="true" signature="1081:1556" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="1210:1551" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="1295:1366" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="1389:1542" ph="/* AFTER TESTING: Change the debug log to &quot;Debug.Log(CollectionList[i]);&quot; ... */" />
+            <marker date="1555995898451" expanded="true" signature="1590:2008" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="1689:1928" ph="{...}" />
+            <marker date="1555995898451" expanded="true" signature="1754:1919" ph="{...}" />
           </folding>
         </state>
       </provider>

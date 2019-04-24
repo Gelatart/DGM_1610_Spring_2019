@@ -22,4 +22,5 @@ public class EnemyAI : MonoBehaviour
    {
       agent.destination = transform.position;
    }
+   //If doesn't work the way you want it, change OnTriggerEnter back to Update, get rid of OnTriggerExit?
 }

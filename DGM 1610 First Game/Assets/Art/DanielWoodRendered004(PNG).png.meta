@@ -1,12 +1,43 @@
 fileFormatVersion: 2
 guid: f299b562ff8e88c4aaf8e0627ec5cd61
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: DanielWoodRendered004(PNG)_1
+    21300002: DanielWoodRendered004(PNG)_2
+    21300004: DanielWoodRendered004(PNG)_3
+    21300006: DanielWoodRendered004(PNG)_4
+    21300008: DanielWoodRendered004(PNG)_5
+    21300010: DanielWoodRendered004(PNG)_7
+    21300012: DanielWoodRendered004(PNG)_8
+    21300014: DanielWoodRendered004(PNG)_9
+    21300016: DanielWoodRendered004(PNG)_10
+    21300018: DanielWoodRendered004(PNG)_11
+    21300020: DanielWoodRendered004(PNG)_12
+    21300022: DanielWoodRendered004(PNG)_13
+    21300024: DanielWoodRendered004(PNG)_14
+    21300026: DanielWoodRendered004(PNG)_15
+    21300028: DanielWoodRendered004(PNG)_16
+    21300030: DanielWoodRendered004(PNG)_17
+    21300032: DanielWoodRendered004(PNG)_18
+    21300034: DanielWoodRendered004(PNG)_19
+    21300036: DanielWoodRendered004(PNG)_20
+    21300038: DanielWoodRendered004(PNG)_21
+    21300040: DanielWoodRendered004(PNG)_22
+    21300042: DanielWoodRendered004(PNG)_23
+    21300044: DanielWoodRendered004(PNG)_24
+    21300046: DanielWoodRendered004(PNG)_25
+    21300048: DanielWoodRendered004(PNG)_26
+    21300050: DanielWoodRendered004(PNG)_27
+    21300052: DanielWoodRendered004(PNG)_28
+    21300054: DanielWoodRendered004(PNG)_29
+    21300056: DanielWoodRendered004(PNG)_30
+    21300058: DanielWoodRendered004(PNG)_31
+    21300060: DanielWoodRendered004(PNG)_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +65,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +80,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +100,151 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DanielWoodRendered004(PNG)_11
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 982
+        width: 550
+        height: 523
+      alignment: 9
+      pivot: {x: 0.49530783, y: 0.61340725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.8788471, y: 117.57813}
+        - {x: -131.94235, y: 117.57813}
+        - {x: -200.97606, y: 80.56007}
+        - {x: -200.97606, y: -261.5}
+        - {x: 34.13874, y: -261.5}
+        - {x: 115.17831, y: -157.55614}
+        - {x: 115.17831, y: -14.486318}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fa6ecf1022fef4482e7d3729f0969b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered004(PNG)_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 312
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdaeeff4082b1649a11585073e72c97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered004(PNG)_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 89
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbdbd72e999a9241ab32066b9508beb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered004(PNG)_0
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 957
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b865edc6aa349de47820558d1919b3d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered004(PNG)_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 940
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777db9f56c6ab754189573bde3f60bbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered004(PNG)_2
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 927
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760438c29dd9e474e9efafa5d16d0ca9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 67d43888097509d4eba20c6c916e22ea
     vertices: []
     indices: 
     edges: []
