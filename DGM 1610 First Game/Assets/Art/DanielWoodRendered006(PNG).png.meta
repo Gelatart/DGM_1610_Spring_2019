@@ -11,6 +11,13 @@ TextureImporter:
     21300012: DanielWoodRendered006(PNG)_6
     21300014: DanielWoodRendered006(PNG)_7
     21300016: DanielWoodRendered006(PNG)_8
+    21300018: DanielWoodRendered006(PNG)_9
+    21300020: DanielWoodRendered006(PNG)_10
+    21300022: DanielWoodRendered006(PNG)_11
+    21300024: DanielWoodRendered006(PNG)_12
+    21300026: DanielWoodRendered006(PNG)_13
+    21300028: DanielWoodRendered006(PNG)_14
+    21300030: DanielWoodRendered006(PNG)_15
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -323,6 +330,146 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c4ed5723bcca77c419374e7d35aaef73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_9
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1684
+        width: 232
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac7bf9dc5406247a6a05aec45f23f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_10
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1777
+        width: 123
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181e35f9da191dd4f96162224646e010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_11
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1933
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edb995293ae06045a3848f3b57946eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1872
+        width: 67
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7fd2c926b51a3488bb3e79e1215c39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_13
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1852
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a539d438de503b4e8afc6b602bbd680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_14
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1852
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d9bc9ba771e941af5caeb56f0a8c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_15
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 403
+        width: 940
+        height: 1262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae98f9cab18f7d4fabdbe7a3bc2d44a
       vertices: []
       indices: 
       edges: []

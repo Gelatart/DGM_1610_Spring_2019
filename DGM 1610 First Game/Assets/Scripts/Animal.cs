@@ -8,7 +8,8 @@ public class Animal : MonoBehaviour
 {
 
 	public string Name;
-	public FloatData Health;
+	//public FloatData Health;
+	public float Health = 1.0f;
 	public ColorData SkinColor;
 	public FloatData Speed; 
 	public bool CanMove; 
@@ -23,7 +24,7 @@ public class Animal : MonoBehaviour
 	public ColorData DeadColor; //color turns to in death
 	public float EatingSpeed; 
 	public bool CanEat;
-	public UnityEvent Event; //Doesn't need getters/setters?
+	public UnityEvent Event, DeathEvent; //Doesn't need getters/setters?
 	public bool IsWarmBlooded; 
 	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
 	
@@ -32,7 +33,7 @@ public class Animal : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
-	    Health = FloatData.CreateInstance(1.0f);
+	    //Health = FloatData.CreateInstance(1.0f);
 	    //Health = GameObject.Find("Health").GetComponent<FloatData>();
 	    SkinColor = ColorData.CreateInstance(Color.black);
 	    //Source for learning about CreateInstance: https://answers.unity.com/questions/310847/how-to-create-instance-of-scriptableobject-and-pas.html
@@ -44,7 +45,7 @@ public class Animal : MonoBehaviour
 	}	
 	// Update is called once per frame
 	void Update () {
-		if (Health.Value == 0.0f)
+		if (Health <= 0.0f)
 		{
 			getKilled();
 		}
@@ -52,8 +53,14 @@ public class Animal : MonoBehaviour
 
 	public void decreaseHealth()
 	{
-		Health.Value = Health.Value - 0.1f;
-		Debug.Log("oof");
+		Health = Health - 0.1f;
+		Debug.Log("oof" + Health);
+	}
+	
+	public void increaseHealth() 
+	{
+		Health = Health + 0.1f;
+		Debug.Log("Awesome");
 	}
 	
 	public void getKilled()
@@ -62,5 +69,6 @@ public class Animal : MonoBehaviour
 		EyeColor = DeadColor;
 		spriteRender.color = DeadColor.Value;
 		Debug.Log("I die");
+		DeathEvent.Invoke();
 	}
 }
