@@ -18,6 +18,22 @@ TextureImporter:
     21300026: DanielWoodRendered006(PNG)_13
     21300028: DanielWoodRendered006(PNG)_14
     21300030: DanielWoodRendered006(PNG)_15
+    21300032: DanielWoodRendered006(PNG)_16
+    21300034: DanielWoodRendered006(PNG)_17
+    21300036: DanielWoodRendered006(PNG)_18
+    21300038: DanielWoodRendered006(PNG)_19
+    21300040: DanielWoodRendered006(PNG)_20
+    21300042: DanielWoodRendered006(PNG)_21
+    21300044: DanielWoodRendered006(PNG)_22
+    21300046: DanielWoodRendered006(PNG)_23
+    21300048: DanielWoodRendered006(PNG)_24
+    21300050: DanielWoodRendered006(PNG)_25
+    21300052: DanielWoodRendered006(PNG)_26
+    21300054: DanielWoodRendered006(PNG)_27
+    21300056: DanielWoodRendered006(PNG)_28
+    21300058: DanielWoodRendered006(PNG)_29
+    21300060: DanielWoodRendered006(PNG)_30
+    21300062: DanielWoodRendered006(PNG)_31
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -463,13 +479,333 @@ TextureImporter:
         width: 940
         height: 1262
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: dae98f9cab18f7d4fabdbe7a3bc2d44a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_16
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1793
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e16b6d6dfeace64a8f3c91024ad2aaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_17
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1663
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7450e434dfa2bcf4aae87301b5aa94c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_18
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1720
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e35c499e82564c92c8b8d253d75ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_19
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1665
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3440d1f17f89d5b4d983c18b137eea78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_20
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1816
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce0b2358d081847ba1e94443109b02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_21
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1746
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc94e1cdeb285524f91b4580b7e02fa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_22
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1812
+        width: 110
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e22f3636afa05449a272d772a7e88a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_23
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1767
+        width: 123
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5141d05a7e0f8884ebb1598fbcc41fe7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1716
+        width: 166
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43489ec696a7e8d478fe7983853be183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_25
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 753
+        width: 249
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1da7843838ad94899b21be7a355abb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_26
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 532
+        width: 232
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a855ad4e8e926f4fbbb6bb0c5554104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_27
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 54
+        width: 300
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21366107ee39fc84fa3c5f4e02d38d48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_28
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 81
+        width: 354
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9dba650d0a4c46a1d93fd5e88b3b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_29
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 134
+        width: 67
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952497db81f9b434194cb5b5209a8947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_30
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 267
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec455348456b5f46b9e0c376ae0bce8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DanielWoodRendered006(PNG)_31
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 125
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a9a99364cc47e4295251159c2d8d10
       vertices: []
       indices: 
       edges: []

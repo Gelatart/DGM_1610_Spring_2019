@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Daniel\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Daniel\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_DGM 1610 First Game.2134862187.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Daniel\Documents\DGM-1610\DGM_1610_Spring_2019\DGM 1610 First Game" t="IncludeRecursive">
+    <e p="C:\Users\10626649\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_DGM 1610 First Game.1344857035.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10626649\Documents\DGM_1610_Spring_2019\DGM 1610 First Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -14,6 +13,7 @@
           <e p="Bird.cs" t="Include" />
           <e p="BoolData.cs" t="Include" />
           <e p="Bug.cs" t="Include" />
+          <e p="ChangeSprite.cs" t="Include" />
           <e p="CharacterData.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
           <e p="ColorData.cs" t="Include" />
@@ -24,6 +24,7 @@
           <e p="Fish.cs" t="Include" />
           <e p="FlipCharacter.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="Follow.cs" t="Include" />
           <e p="Forces.cs" t="Include" />
           <e p="FunctionWithParams.cs" t="Include" />
           <e p="Health.cs" t="Include" />

@@ -12,8 +12,13 @@ public class EnemyAI : MonoBehaviour
    {
       agent = GetComponent<NavMeshAgent>();
    }
+   
+   void Update() //formerly Update, then OnTriggerStay
+   {
+      agent.destination = Player.position;
+   }
 
-   void OnTriggerEnter(Collider other) //formerly Update, then OnTriggerStay
+   /*void OnTriggerEnter(Collider other) //formerly Update, then OnTriggerStay
    {
       agent.destination = Player.position;
    }
@@ -21,6 +26,6 @@ public class EnemyAI : MonoBehaviour
    private void OnTriggerExit(Collider other)
    {
       agent.destination = transform.position;
-   }
+   }*/
    //If doesn't work the way you want it, change OnTriggerEnter back to Update, get rid of OnTriggerExit?
 }
