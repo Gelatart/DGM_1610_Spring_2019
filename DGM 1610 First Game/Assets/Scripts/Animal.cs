@@ -68,7 +68,7 @@ public class Animal : MonoBehaviour
 		SkinColor = DeadColor;
 		EyeColor = DeadColor;
 		spriteRender.color = DeadColor.Value;
-		Debug.Log("I die");
+		//Debug.Log("I die");
 		DeathEvent.Invoke();
 	}
 }
