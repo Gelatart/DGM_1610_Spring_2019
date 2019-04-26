@@ -19,6 +19,7 @@ public class RunAnims : MonoBehaviour
     void Update()
     {
         Veloc = rb.velocity.magnitude;
+        //Debug.Log(Veloc);
         anims.SetFloat("Speed", Speed);
         anims.SetFloat("Velocity", Veloc);
     }

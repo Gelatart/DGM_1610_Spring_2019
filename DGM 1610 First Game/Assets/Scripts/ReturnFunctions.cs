@@ -37,10 +37,10 @@ public class ReturnFunctions : MonoBehaviour
         return A % B;
     }
 
-    /*private int AddSeries() //Trying to make a function that goes through adding numbers between two endpoints
+    private int AddSeries() //Trying to make a function that goes through adding numbers between two endpoints
     {
-        public int D;
-        public int E = B;
+         int D = 0;
+         int E = B;
         while (E > A)
         {
             D += B;
@@ -49,7 +49,7 @@ public class ReturnFunctions : MonoBehaviour
 
         D += A;
         return D;
-    }*/
+    }
 
     public Vector3 Move()
     {

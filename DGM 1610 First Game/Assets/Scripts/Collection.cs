@@ -37,6 +37,19 @@ public class Collection : ScriptableObject
        }
    }
 
+   public void MultipleAmmoInfo()
+   {
+       float TotalAmmo = 0;
+       for (var i = 0; i < CollectionList.Count; i++)
+       {
+           if (CollectionList[i].name == "Ammo" || CollectionList[i].name == "Ammo+" || CollectionList[i].name == "Ammo++")
+           {
+               TotalAmmo = TotalAmmo + CollectionList[i].Value;
+           }
+       }
+       Debug.Log("We have " + TotalAmmo + " ammo.");
+   }
+
    public void FuelInfo()
    {
        for (var i = 0; i < CollectionList.Count; i++)
@@ -69,5 +82,18 @@ public class Collection : ScriptableObject
 
        Debug.Log("We have " + c + " collectables, worth " + value + ".");
    }
-   
+   public void ScoreInfo()
+   {
+       float TotalValue = 0;
+       foreach (var obj in CollectionList)
+       {
+           if (obj.name == "NutScore" || obj.name == "CoinScore" || obj.name == "JewelScore" ||
+               obj.name == "GemScore" || obj.name == "EmeraldScore")
+           {
+               TotalValue = TotalValue + obj.Value;
+           }
+       }
+
+       Debug.Log("We have " + TotalValue + " score.");
+   }
 }
