@@ -12,21 +12,23 @@ public class Animal : MonoBehaviour
 	public float Health = 1.0f;
 	public ColorData SkinColor;
 	public FloatData Speed; 
-	public bool CanMove; 
-	protected Color newColor;
+	//public bool CanMove; 
+	//protected Color newColor;
 	
-	public ColorData EyeColor;
-	public string Habitat;
-	public string Affiliation; // if friendly or hostile or neutral
-	public string Message; // Flavor text that activates when approach
-	public string Gender;
-	public string WeightClass; // light, average, heavy
+	//public ColorData EyeColor;
+	//public string Habitat;
+	//public string Affiliation; // if friendly or hostile or neutral
+	//public string Message; // Flavor text that activates when approach
+	//public string Gender;
+	//public string WeightClass; // light, average, heavy
 	public ColorData DeadColor; //color turns to in death
-	public float EatingSpeed; 
-	public bool CanEat;
-	public UnityEvent Event, DeathEvent; //Doesn't need getters/setters?
-	public bool IsWarmBlooded; 
-	public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
+	//public float EatingSpeed; 
+	//public bool CanEat;
+	public UnityEvent Event, DeathEvent, DamageEvent; //Doesn't need getters/setters?
+
+	public StateMachine States;
+	//public bool IsWarmBlooded; 
+	//public string FoodType; //Carnivore/Herbivore/Omnivore/Etc.
 	
 	
 	private SpriteRenderer spriteRender;
@@ -54,7 +56,7 @@ public class Animal : MonoBehaviour
 	public void decreaseHealth()
 	{
 		Health = Health - 0.1f;
-		Debug.Log("oof" + Health);
+		//Debug.Log("oof" + Health);
 	}
 	
 	public void increaseHealth() 
@@ -66,9 +68,18 @@ public class Animal : MonoBehaviour
 	public void getKilled()
 	{
 		SkinColor = DeadColor;
-		EyeColor = DeadColor;
+		//EyeColor = DeadColor;
 		spriteRender.color = DeadColor.Value;
 		//Debug.Log("I die");
 		DeathEvent.Invoke();
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if(other.tag == "Ammo")
+		{
+			DamageEvent.Invoke();
+		}
+		//Source: https://answers.unity.com/questions/743826/how-to-make-it-so-collision-only-triggers-with-a-c.html
 	}
 }

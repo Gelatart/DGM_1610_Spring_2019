@@ -8,14 +8,15 @@ public class UpdateBar : MonoBehaviour
 {
     private Image BarImage;
     public FloatData FillNumber;
-    public UnityEvent IncrementEvent, DecrementEvent;
-    public bool IsAffected;
-    public bool IsPositive;
+    public UnityEvent StartEvent, IncrementEvent, DecrementEvent;
+    //public bool IsAffected;
+    //public bool IsPositive;
     
     // Start is called before the first frame update
     void Start()
     {
         BarImage = GetComponent<Image>();
+        StartEvent.Invoke();
         //BarImage.fillAmount = 1.0f; //Replacement for fillAmount not working in Update
     }
 
@@ -23,14 +24,14 @@ public class UpdateBar : MonoBehaviour
     void Update()
     {
         BarImage.fillAmount = FillNumber.Value; 
-        if (IsAffected)
+        /*if (IsAffected)
         {
             EffectDeterminant();
             IsAffected = false;
-        }
+        }*/
     }
 
-    public void EffectDeterminant()
+    /*public void EffectDeterminant()
     {
         if (IsPositive)
         {
@@ -40,6 +41,6 @@ public class UpdateBar : MonoBehaviour
         {
             DecrementEvent.Invoke();
         }
-    }
+    }*/
     //Touch up this code that determines whether to increment or decrement a bar value? Move it somewhere else?
 }

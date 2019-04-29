@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Mammal : Animal
 {
-    public ColorData FurColor;
+   // public ColorData FurColor;
     
     // Use this for initialization
     void Start ()
     {
-        IsWarmBlooded = true;
+        //IsWarmBlooded = true;
     }
 	
     // Update is called once per frame
@@ -17,13 +17,4 @@ public class Mammal : Animal
 		
     }
 
-    /*public ColorData getFurColor()
-    {
-        return FurColor;
-    }
-
-    public void setFurColor(ColorData newFurColor)
-    {
-        FurColor = newFurColor;
-    }*/
 }

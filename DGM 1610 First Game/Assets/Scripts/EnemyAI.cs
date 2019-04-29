@@ -53,15 +53,17 @@ public class EnemyAI : MonoBehaviour
       }
    }
 
-   /*void OnTriggerEnter(Collider other) //formerly Update, then OnTriggerStay
+   void OnTriggerEnter(Collider other) //formerly Update, then OnTriggerStay
    {
-      agent.destination = Player.position;
+      //agent.destination = Player.position;
+      CurrentState = States.Tracking;
    }
 
    private void OnTriggerExit(Collider other)
    {
-      agent.destination = transform.position;
-   }*/
+      //agent.destination = transform.position;
+      CurrentState = States.Idle;
+   }
    //If doesn't work the way you want it, change OnTriggerEnter back to Update, get rid of OnTriggerExit?
    
 }

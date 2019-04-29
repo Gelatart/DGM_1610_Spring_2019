@@ -10,6 +10,7 @@ public class StateMachine : ScriptableObject
 {
     
     public UnityEvent StartingEvent, PlayingEvent, EndingEvent;
+    public Counter Count;
     
     public enum States
     {

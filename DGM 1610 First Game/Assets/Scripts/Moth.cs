@@ -8,10 +8,10 @@ public class Moth : Bug
 
 	// Use this for initialization
 	void Start () {
-		Affiliation = "Neutral";
-		Habitat = "Verdant";
-		WeightClass = "Light";
-		Message = "Mmmmppppphhhhh! *She doesn't appear to have a mouth...*";
+		//Affiliation = "Neutral";
+		//Habitat = "Verdant";
+		//WeightClass = "Light";
+		//Message = "Mmmmppppphhhhh! *She doesn't appear to have a mouth...*";
 	}
 	
 	// Update is called once per frame

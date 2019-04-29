@@ -8,7 +8,7 @@ public class FloatData : ScriptableObject
     [SerializeField] private float value; // visible in editor?
     public float Value { //visible in events system
     	get { return value; }
-    	set { this.value += value; }
+    	set { this.value = value; }
     }
     
     public void UpdateValue(float floatInput) {
@@ -20,7 +20,7 @@ public class FloatData : ScriptableObject
 	    Value += dataObj.Value;
     }
 
-    public void Init(float Value)
+    /*public void Init(float Value)
     {
 	    this.Value = Value;
     }
@@ -29,7 +29,7 @@ public class FloatData : ScriptableObject
 	    var data = ScriptableObject.CreateInstance<FloatData>();
 	    data.Init(Value);
 	    return data;
-    }
+    }*/
     //Source for Init and CreateInstance https://answers.unity.com/questions/310847/how-to-create-instance-of-scriptableobject-and-pas.html
 
 }

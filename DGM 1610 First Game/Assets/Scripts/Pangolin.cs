@@ -9,24 +9,14 @@ public class Pangolin : Mammal
 
 	// Use this for initialization
 	void Start () {
-		Affiliation = "Neutral";
-		Habitat = "Arid";
-		WeightClass = "Heavy";
-		Message = "Please, sir, just $5 goes a long way for us penitent pangolins.";
+		//Affiliation = "Neutral";
+		//Habitat = "Arid";
+		//WeightClass = "Heavy";
+		//Message = "Please, sir, just $5 goes a long way for us penitent pangolins.";
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
-	/*public Color getScaleColor()
-	{
-		return ScaleColor;
-	}
-
-	public void setScaleColor(Color newScaleColor)
-	{
-		ScaleColor = newScaleColor;
-	}*/
 }

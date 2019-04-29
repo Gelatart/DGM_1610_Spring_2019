@@ -5,12 +5,12 @@ using UnityEngine;
 public class Bird : Animal
 {
 
-    public Color BeakColor;
+    //public Color BeakColor;
 
     // Use this for initialization
     void Start ()
     {
-        IsWarmBlooded = true;
+        //IsWarmBlooded = true;
     }
 	
     // Update is called once per frame
@@ -18,13 +18,4 @@ public class Bird : Animal
 		
     }
 
-    /*public Color getBeakColor()
-    {
-        return BeakColor;
-    }
-
-    public void setBeakColor(Color newBeakColor)
-    {
-        BeakColor = newBeakColor;
-    }*/
 }

@@ -5,12 +5,12 @@ using UnityEngine;
 public class Reptile : Animal
 {
 
-    public ColorData ScaleColor;
+    //public ColorData ScaleColor;
     
     // Start is called before the first frame update
     void Start()
     {
-        IsWarmBlooded = false;
+        //IsWarmBlooded = false;
     }
 
     // Update is called once per frame

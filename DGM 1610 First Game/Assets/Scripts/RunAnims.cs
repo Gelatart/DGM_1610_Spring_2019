@@ -9,13 +9,13 @@ public class RunAnims : MonoBehaviour
     public Rigidbody rb;
     public float Speed;
     public float Veloc;
-	private Vector3 pastLocation;
+	//private Vector3 pastLocation;
 
     void Start()
     {
         //anims = GetComponent<Animator>();
         rb = GameObject.Find("Player").GetComponent<Rigidbody>();
-		pastLocation = rb.position;
+		//pastLocation = rb.position;
     }
 
     void Update()
@@ -23,10 +23,10 @@ public class RunAnims : MonoBehaviour
 		//formerly if(pastLocation == rb.position)
 		if(Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0) {
 			//anims.SetFloat("Velocity", 1);
-			Debug.Log("We are moving");
+			//Debug.Log("We are moving");
 			anims.SetTrigger("Move");			
 		} else {
-			Debug.Log("We are idle");
+			//Debug.Log("We are idle");
 			//anims.SetFloat("Velocity", 0);
 			anims.SetTrigger("Idle");
 		}

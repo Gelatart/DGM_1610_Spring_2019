@@ -5,11 +5,11 @@ using UnityEngine;
 public class Bug : Animal
 {
 
-    public Color WingColor;
+    //public Color WingColor;
 
     // Use this for initialization
     void Start () {
-        IsWarmBlooded = false;
+       // IsWarmBlooded = false;
     }
 	
     // Update is called once per frame
@@ -17,13 +17,4 @@ public class Bug : Animal
 		
     }
 
-    /*public Color getWingColor()
-    {
-	    return WingColor;
-    }
-
-    public void setWingColor(Color newWingColor)
-    {
-	    WingColor = newWingColor;
-    }*/
 }
